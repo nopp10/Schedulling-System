@@ -1,2 +1,2 @@
 # Schedulling-System
-Tugas SOl
+Tugas SOL
