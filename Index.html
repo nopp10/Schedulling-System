@@ -1,0 +1,23 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="process.css">
+    <title>Process Scheduling</title>
+</head>
+<body>
+
+<h1>Process Scheduling</h1>
+<label for="numProcesses">Number of Processes:</label>
+<input type="number" id="numProcesses" min="1" value="5">
+<button onclick="generateInputFields()">Generate Input Fields</button>
+
+<div id="processInputs"></div>
+<button onclick="calculateScheduling()">Calculate Scheduling</button>
+
+<h2>Results</h2>
+<div id="results"></div>
+<script src="schedulling.js"></script>
+</body>
+</html>
